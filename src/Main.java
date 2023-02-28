@@ -1,14 +1,11 @@
 public class Main {
     public static void main(String[] args) {
-        int clientDeviceYear = 2015;
-        if (clientDeviceYear <= 2015) {
-            System.out.println("Установите облегченную версию приложения для iOS по ссылке");
-        } if( clientDeviceYear == 2015) {
-            System.out.println("Установите облегченную версию приложения для Андроид по ссылке");
-        } if ( clientDeviceYear > 2015) {
-            System.out.println("Установите облегченную версию приложения для IOS по ссылке");
-        } else if ( clientDeviceYear < 2015) {
-            System.out.println("Установите облегченную версию приложения для Андроид по ссылке");
+       int leapYear = 2022;
+       int nonLeapYear = 2021;
+       if (nonLeapYear == 2021) {
+            System.out.println(" 2021 год не являеться весокостным");
+        } if (leapYear == 2022){
+            System.out.println(" 2022 год являеться весокостным");
         }
     }
 }
