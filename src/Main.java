@@ -1,20 +1,27 @@
 public class Main {
     public static void main(String[] args) {
-        int deliveryDistance = 95;
-        int deliveryFrom1 = 20;
-        int deliveryFrom2 = 50;
-        int deliveryFrom3 = 60;
-        int deliveryFrom4= 0;
-        if (deliveryFrom1 <=20) {
-            System.out.println("Потребуется 1 день,для доставки карты клиенту");
+        int monthNumber = 12;
+        switch (monthNumber) {
+            case 1:
+            case 2:
+                System.out.println("Зима");
+                break;
+            case 3:
+            case 4:
+            case 5:
+                System.out.println(" Весна ");
+                break;
+            case 6:
+            case 7:
+            case 8:
+                System.out.println("Лето");
+                break;
+            case 9:
+            case 10:
+            case 11:
+                System.out.println("Осень");
+                break;
+            default:
+                System.out.println("Такого месяца не существует");
         }
-        if (deliveryFrom2 ==50 ) {
-            System.out.println("Потребуется 2 дня,для доставки карты клиенту");
-        }
-        if ( deliveryFrom3 >= 60) {
-            System.out.println("Потребуется 3 дня,для доставки карты клиенту");
-        } else if ( deliveryFrom4 ==0) {
-            System.out.println("Доставка свыше 100 км не осуществляеться");
-        }
-    }
-    }
+    }}
